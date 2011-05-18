@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='collective.rdfadcviewlet',
       version=version,
-      description="Adds a hidden viewlet where dublin core values are displayed in rdfa format",
+      description="Adds a hidden viewlet where dublin core values are displayed in rdfa format, by ecreall",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -14,9 +14,9 @@ setup(name='collective.rdfadcviewlet',
         "Framework :: Plone",
         "Programming Language :: Python",
         ],
-      keywords='',
-      author='',
-      author_email='',
+      keywords='Dublin Core, RDFa, Plone',
+      author='Thomas Desvenain',
+      author_email='thomas.desvenain@gmail.com',
       url='http://svn.plone.org/svn/collective/',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
