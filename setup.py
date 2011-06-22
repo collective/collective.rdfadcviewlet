@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='collective.rdfadcviewlet',
       version=version,
-      description="Adds a hidden viewlet where dublin core values are displayed in rdfa format, by ecreall",
+      description="Adds a viewlet that adds on your page meta with dublin core values in rdfa format, by ecreall",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from

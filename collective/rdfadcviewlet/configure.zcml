@@ -16,7 +16,7 @@
   <gs:registerProfile
     name="default"
     title="RDFa Dublin Core viewlet"
-    description="Adds a hidden viewlet where dublin core values are displayed in rdfa format"
+    description="Viewlet that adds meta with dublin core values in rdfa format"
     directory="profiles/default"
     for="Products.CMFPlone.interfaces.IPloneSiteRoot"
     provides="Products.GenericSetup.interfaces.EXTENSION"
